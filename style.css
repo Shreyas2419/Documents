@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(228, 115, 115)
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}
+#pandas{
+    border: 10px solid whitesmoke;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#div1{
+    height:100px;
+    width:100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+#div2{
+    height:100px;
+    width:100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+#div3{
+    height:100px;
+    width:100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+#div3{
+    
+
+
+
+
+
+
+}
+#div1:hover{
+    background-color:blue;
+    box-shadow:0 0 25px black;
+}
+div2:hover{
+    background-color:orange;
+}
+div3:hover{
+    background-color:purple
+}
+ form{
+        width: 350px;
+        min-height: 100vh;
+        display: flex;
+        flex-derecytion: column;
+        jiustify-content: center;
+        align-items: center;
+        font-family: sans-series;
+        gap: 10px;
+        background-colour: rgba(255,255,255,0.1);
+        background-filter: blur(10px);
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.1);
+}
